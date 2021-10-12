@@ -1,0 +1,49 @@
+sobre: 
+https://fontawesome.com/v5.15/icons/envelope?style=regular
+
+lugar:
+https://fontawesome.com/v5.15/icons/map-marker-alt?style=solid
+
+telefono:
+https://fontawesome.com/v5.15/icons/phone-alt?style=solid
+
+menu hamburguesa:
+https://fontawesome.com/v5.15/icons/bars?style=solid
+
+usuario:
+https://fontawesome.com/v5.15/icons/user?style=solid
+
+bolso:
+https://fontawesome.com/v5.15/icons/shopping-bag?style=solid
+
+/* MediaQuery */
+
+@media screen and (max-width:360px){
+    
+    header{
+        width: 100vw;
+    }
+
+    .perfil{
+        flex-wrap: nowrap;
+        width: 20vw;
+        justify-content: space-between;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .container1, .container5{
+        background-size:contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 188px;
+    }
+
+
+}

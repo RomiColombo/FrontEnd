@@ -1,0 +1,122 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+.descuento {
+    width: 100%;
+    height: 30px;
+    background-color: #1CD1B0;
+    padding-left: 62.57px;
+    padding-top: 5px;
+    z-index: 2;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    height: 84px;
+    padding-left: 62.57px;
+    left:0px;
+    top: 0px;
+    font-size: 40px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+
+.formulario {
+    position:relative;
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+select{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.entrar{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    background: #1CD1B0;
+    color:#000000;
+    border-radius: 23px;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin-left:15px;
+    margin-top: 20px;
+}
+
+.reset{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    background: #888888;
+    color: white;
+    border-radius: 23px;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin-left:15px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    box-sizing: border-box;
+    bottom: 0px;
+
+}

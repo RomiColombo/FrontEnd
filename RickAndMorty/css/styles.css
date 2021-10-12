@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #7898FF;
+    --secondary: #8E64C5;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* BODY */
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+}
+
+/*HEADER*/
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100px;
+}
+
+/*MAIN*/
+
+.hamburguesa {
+  max-width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerTarjeta{
+  width: 30%;
+  margin: 5px;
+}
+
+.tarjeta{
+  background-color: rgb(204, 204, 204);
+  margin: 15px 0;
+  width: 100%;
+  height: 55vh;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  position: relative;
+
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transition: .7s ease;
+}
+
+.tarjetaFront, .tarjetaBack{
+  width: 100%;
+	height: 100%;
+  
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+.tarjetaFront img{
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+}
+
+.tarjetaBack{
+  transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  line-height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h3{
+  padding-bottom: 15px;
+}
+
+.containerTarjeta:hover .tarjeta{
+  transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+footer{
+  bottom: 0;
+  background-color: #8e64c55e;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

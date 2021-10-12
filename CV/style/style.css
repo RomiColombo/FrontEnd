@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Handlee&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #f4f4f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  height: 15%;
+  width: 15%;
+  padding: 0.5%;
+}
+
+header div {
+  background-color: #e6e6ea;
+  width: 100%;
+}
+
+header div h1 {
+  font-family: 'Handlee', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.3em;
+  word-spacing: 20pt;
+  line-height: 48px;
+  color: #FE4A49;
+  text-align: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3% 10% 0 10%;
+}
+
+main h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18px;
+  background-color: #e6e6ea;
+  color: #FE4A49;
+  word-spacing: 10pt;
+  letter-spacing: 0.5em;
+  line-height: 26px;
+  text-indent: 1%;
+}
+
+main li {
+  list-style: none;
+}
+
+main div {
+  padding: 1% 0 1% 2%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+main dl {
+  padding: 1% 0 1% 2%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+main span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+main dd {
+  text-indent: 3%;
+}
+
+footer {
+  background-color: #FE4A49;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffff;
+  letter-spacing: 0.2em;
+}
+
+footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer i {
+  font-size: 25px;
+  color: #ffff;
+  background: #ff7070;
+  border-radius: 50%;
+  border: 10px solid transparent;
+}
+
+footer i:hover {
+  color: #FE4A49;
+}
+
+footer a {
+  margin: 2%;
+}
+/*# sourceMappingURL=style.css.map */

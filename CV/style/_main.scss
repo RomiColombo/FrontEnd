@@ -1,0 +1,38 @@
+main{
+    display:flex;
+    flex-direction: column;
+    margin: 3% 10% 0 10%;
+
+    h2{
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 18px;
+        background-color: #e6e6ea;
+        color: #FE4A49;
+        word-spacing: 10pt;
+        letter-spacing: 0.5em;
+        line-height: 26px;
+        text-indent: 1%;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    div{
+        @include padding;
+        @include fuente;
+    }
+
+    dl{
+        @include padding;
+        @include fuente;
+    }
+
+    span{
+        @include span;
+    }
+
+    dd{
+        text-indent: 3%;
+    }
+}

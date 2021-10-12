@@ -1,0 +1,24 @@
+header{
+    background-color: #f4f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        height: 15%;
+        width: 15%;
+        padding: 0.5%;
+    }
+    div{
+        background-color: #e6e6ea;
+        width:100%;
+        h1{
+            font-family: 'Handlee', sans-serif;
+            font-size: 22px;
+            letter-spacing: 0.3em;
+            word-spacing: 20pt;
+            line-height: 48px;
+            color: #FE4A49;            
+            text-align: center;
+        }
+    }
+}

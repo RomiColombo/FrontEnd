@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color:#d2dbeb;
+}
+
+header{
+    width: 100%;
+    background-color: #F1A916;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #1D82DC;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #E58E07;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+h1, h3{
+    font-family: 'Sacramento', cursive;
+    font-weight:lighter;
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+
+}
+h3{
+    font-size: 30px;
+    margin-left: 20px;
+    line-height: 80px;
+
+}
+
+.descripcion p{
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.descripcion p span{
+    color:#1D82DC;
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.heart, .coffee{
+    font-size: 10px;
+}
+
+.FTop{
+    height: 60px;
+    background-color: #E5A13B;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer div ul li{
+    padding: 0 10px;
+}
+
+.contacto{
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.github{
+    color: #ffffff;
+}
+
+.github:hover{
+    color:#000000;
+}
+
+.linkedin{
+    color:#04019a;
+}
+
+.linkedin:hover{
+    color:#020144;
+}
+
+.ig{
+    color:#9a015f;
+}
+
+.ig:hover{
+    color:#3a0124;
+}
+
+.FBottom{
+    background-color: #F1A916;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    word-spacing: 3pt;
+}

@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mali', cursive;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #F6B040;
+    box-shadow: 0px 4px 4px rgba(255, 212, 18, 0.25);
+    line-height: 30px;
+}
+
+.opciones{
+    text-align: right;
+}
+
+.menu{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size:16px;
+    padding-right: 25px;
+}
+
+.cabecera{
+    padding-top: 60px;
+    padding: 60px 10px 0px;
+}
+
+header{
+    height: 200px;
+    background-image: url("../img/lemon-pie1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    filter: drop-shadow(0);
+    background-color: #d6d6d4;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 45px;
+    color:#E09800;
+    text-align: center;
+}
+
+.descripcion{
+    background-color: #fdd07641;
+    padding-bottom: 10px;
+}
+
+.info{
+    padding: 5px 0;
+    line-height: 32px;
+    text-align: center;
+}
+
+.tiempo, .porciones, .dificultad{
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+.tiempo::before{
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    margin: -4px 6px 0 0;
+}
+
+.porciones::before{
+    content: "\f200";
+    font-family: "Font Awesome 5 Free";
+    margin: -4px 6px 0 0;
+}
+
+.dificultad::before{
+    content: '\f2e5';
+    font-family: "Font Awesome 5 Free";
+    margin: -4px 6px 0 0;
+    font-size: 900;
+    color: #000;
+}
+
+p{
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    color:#E09800;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Ingredientes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preparacion{
+    background-color: #fff5d652 ;
+}
+
+.pasoApaso{
+    padding: 10px 10px 5px 36px;
+}
+
+li{
+    line-height: 30px;
+}
+
+footer{
+    height: 50px;
+    background-color:#F6B040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,235 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+section{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+body{
+    margin: 0px;
+}
+
+.descuento {
+    width: 100%;
+    height: 30px;
+    background-color: #1CD1B0;
+    padding-left: 40px;
+    padding-top: 5px;
+    z-index: 2;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    height: 84px;
+    padding-left: 40px;
+    left:0px;
+    top: 0px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.opciones{
+    text-align: right;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 30px;
+}
+
+.menu{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-size:16px;
+  padding-right: 25px;
+}
+
+.menu:hover{
+    color: #014a72
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 30px 30px;
+    width: 300px;
+    height: 500px;   
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-fondo-bman {
+    background-image: url("../img/bg-batman.jpg");
+    background-size: cover;
+    height: 180px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.card-fondo-wman {
+    background-image: url("../img/bg-wonderw.jpg");
+    background-size: cover;
+    height: 180px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.card-fondo-sman {
+    background-image: url("../img/bg-superman.jpg");
+    background-size: cover;
+    height: 180px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.card-fondo-hq {
+    background-image: url("../img/bg-harley.png");
+    background-size: cover;
+    height: 180px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.card-perfil {
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 5%;
+    position: absolute;
+    top: -90px;
+    left: 70px;
+
+}
+
+.card-texto {
+    position: relative;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 70px;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+p {
+    text-align: left;
+    padding: 0px 20px;    
+}
+
+.vermas {
+    display: inline-block;
+    border-bottom: 30px;
+    padding: 10px 50px;
+    background:#00669F;
+    border-radius: 7;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.vermas:hover{
+    background-color:#001D2D;
+}
+
+.corazon {
+    position: absolute;
+    top: 6.25%;
+    width: 25px;
+    padding: 0px 20px;
+}
+
+.corazon:hover{
+    animation: heartbeat 1s infinite alternate;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale(1);
+  }
+  20%
+  {
+    transform: scale(1.2);
+  }
+  40%
+  {
+    transform: scale(1);
+  }
+  60%
+  {
+    transform: scale(1.2);
+  }
+  80%
+  {
+    transform: scale(1);
+  }
+  100%
+  {
+    transform: scale(1.2);
+  }
+}
+
+.boton {
+    background-color: #00669F;
+    border-radius: 50%;
+    bottom: 250px;
+    color: #FFFFFF;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    right: 20px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: #001D2D;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
